@@ -10,7 +10,7 @@
     <meta charset="UTF-8" />
   </head>
   <body>
-      <section class="hero">
+      <section class="hero" id="hero">
           <nav>
               <ul id="nav-list">
                   <li><a href="#about-me">About me</a></li>
@@ -35,6 +35,7 @@
           </div>
       </section>
       <section class="sub-section" id="about-me">
+          <div class="aboutMeContainer">
           <div class="information">
               <h2>About Me</h2>
               <p>Hello. My name is Paolo, I'm a Front-End Developer with a creative mind.</p><br><br><br><br>
@@ -52,8 +53,16 @@
           <div class="headshot-container">
               <img class="headshot" src="./after.png" alt="Paolo Armentano headshot"/>
           </div>
+        </div>
       </section>
       <section class="sub-section-alternative projects" id="projects">
+        <nav>
+            <ul id="nav-list ">
+                <li><a class="nav-list-projects" href="#hero">Home</a></li>
+                <li><a class="nav-list-projects" href="#about-me">About me</a></li>
+                <li><a class="nav-list-projects" href="#contact-me">Contact</a></li>
+            </ul>
+        </nav>
           <h2>Projects</h2>
           <div class="project-container">
               <div class="project-card">
@@ -61,34 +70,41 @@
                   <h3>Quote Generator</h3>
                   <p class="subtext">This is a special one for me, because no matter how simple it is, it was the first project I coded without the help of anyone, hope you enjoy the quotes!</p>
                   <hr/>
-                  <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/quoteGenerator/">View here</a></p>
+                  <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/quoteGenerator/">Click Here to View</a></p>
               </div>
               <div class="project-card">
                 <img class="project-image" src="./InfinityScroll.png" alt="Infinity Scroll Image"/>
                 <h3>Infinity Scroll</h3>
                 <p class="subtext">A social-media-like smooth scroll that will show you an infinity of beautiful photos.</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/infiniteScroll/">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/infiniteScroll/">Click Here to View</a></p>
               </div>
               <div class="project-card">
                 <img class="project-image" src="./jokeTeller.png" alt="Project One Image"/>
                 <h3>Joke Teller</h3>
                 <p class="subtext">A funny project that will (sometimes) tell you funny jokes related to web development.</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/jokeTeller/">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/jokeTeller/">Click Here to View</a></p>
               </div>
               <div class="project-card">
                 <img class="project-image" src="./weatherApp.png" alt="Project One Image"/>
                 <h3>Weather App</h3>
                 <p class="subtext">This was the first API project I created, check the weather of any city in the world. </p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/weatherApp/">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://paoloarmentano.github.io/weatherApp/">Click Here to View</a></p>
               </div>
           </div>
       </section>
       <footer id="contact-me">
+        <nav>
+            <ul id="nav-list">
+                <li><a class="nav-list-footer" href="#hero">Home</a></li>
+                <li><a class="nav-list-footer" href="#about-me">About me</a></li>
+                <li><a class="nav-list-footer" href="#projects">Projects</a></li>
+            </ul>
+        </nav>
           <h2>Contact me</h2>
-          <h3>Please feel free to get in touch using the email below, thank you.</h3>
+          <p>Please feel free to get in touch using the email below, thank you.</p><br>
           <p>armentano.paolo@gmail.com</p>
       </footer>
     <script src="app.js"></script>
