@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Quicksand&display=swap');
 
 body {
     font-family: 'Quicksand', sans-serif;
@@ -107,6 +108,10 @@ p {
 .button:active {
     background-color: #A9A9A9;
     color: #808080;
+}
+
+.subtext{
+    font-size: 14px;
 }
 
 .sub-section {
