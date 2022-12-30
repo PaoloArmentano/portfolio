@@ -55,6 +55,11 @@ nav {
     justify-content: flex-end;
 }
 
+.navBarHome{
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
