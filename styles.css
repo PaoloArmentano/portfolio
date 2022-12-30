@@ -270,6 +270,10 @@ ol{
         display: flex;
         justify-content: center;
     }
+    
+    .headshot{
+        height: 700px
+    }
 }
 
 .project-image {
@@ -311,6 +315,12 @@ a {
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
+
+    }
+
+    .aboutMe{
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
     nav {
