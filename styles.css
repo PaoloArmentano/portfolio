@@ -145,35 +145,20 @@ p {
     color: white;
     /* border: 1px solid black; */
 }
-/* 
-#nav-list-projects{
-    border: 1px solid black;
+
+.nav-list-projects{
+    color: white;
 }
 
-#nav-list-hero{
-    border: 1px solid white;
-} */
-
-.button-28:hover {
-  color: #fff;
-  background-color: #1A1A1A;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-}
-
-.button-28:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
 
 .projects{
-    background-color: white;
+    background-color: black;
 }
 
-
-.nav-list-projects {
-    color: black;
+.projectsBody{
+    color: white;
 }
+
 .nav-list-footer{
     color: white;
 }
@@ -181,10 +166,11 @@ p {
 .project-card {
     width: 300px;
     height: 420px;
-    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    /* box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.646); */
     margin: 10px;
     border-radius: 15px;
     padding: 10px;
+    background-color: rgb(41, 40, 40);
 }
 
 .project-container {
@@ -240,7 +226,7 @@ ol{
 }
 
 .headshot{
-    height: 500px;
+    height: 480px;
     border-radius: 3px;
     margin: 0 30px;
     /* box-shadow: -19px 25px 33px -7px rgba(0,0,0,0.52); */
@@ -249,6 +235,7 @@ ol{
 .project-image {
     margin-top: 25px;
     width: 250px;
+    height: 200px;
     border-radius: 15px;
 }
 
@@ -259,7 +246,7 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: #000000;
+    color: #white;
 }
 
 a {
@@ -318,7 +305,8 @@ a {
     }
     
     .headshot{
-        height: 700px
+        height: 700px;
+        margin: 30px 0;
     }
 
 }
