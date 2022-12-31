@@ -70,6 +70,7 @@ ul {
 
 li {
     text-decoration: none;
+    padding: 20px;
 }
 
 h1 {
@@ -327,7 +328,7 @@ a {
 
     nav {
         display: flex;
-        justify-content: center;
+        justify-content: center; 
     }
     
     .headshot{
