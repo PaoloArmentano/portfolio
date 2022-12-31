@@ -20,6 +20,12 @@ section {
     padding-bottom: 30px;
 }
 
+video{
+    height: 300px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
 .hero-info{
     display: flex;
     justify-content: center;
@@ -189,7 +195,6 @@ p {
 
 ol{
     list-style-type: circle;
-    font-size: 30px;
 }
 
 .contact{
@@ -205,10 +210,11 @@ ol{
 
 .aboutMe{
     display: flex;
-    margin: 0 30px 0 30px;
+    margin: 40px 30px 0 30px;
     /* border: 1px solid black; */
-    justify-content: space-around;
+    justify-content: center;
     height: 80vh;
+
 }
 
 .aboutMeTitle{
@@ -219,7 +225,7 @@ ol{
 }
 
 .aboutMeSection{
-    font-size: 25px;
+    font-size: 20px;
     color: white;
 }
 
@@ -227,9 +233,16 @@ ol{
     background-color: black;
 }
 
+.listSpace{
+    /* padding: 0; */
+    padding-top: 0;
+    padding-left: 0;
+}
+
 .headshot{
     height: 500px;
     border-radius: 3px;
+    margin: 0 30px;
     /* box-shadow: -19px 25px 33px -7px rgba(0,0,0,0.52); */
 }
 
@@ -292,7 +305,7 @@ a {
     margin-top: 40px;
 }
     .aboutMe{
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
     a{
