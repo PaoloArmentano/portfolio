@@ -173,7 +173,6 @@ p {
 .project-card {
     width: 300px;
     height: 420px;
-    /* box-shadow: 5px 5px 20px rgba(255, 255, 255, 0.646); */
     margin: 10px;
     border-radius: 5px;
     padding: 10px;
@@ -196,7 +195,6 @@ ol{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    /* border: 1px solid white; */
     height: 80%;
     margin-bottom: 0;
 }
@@ -227,7 +225,6 @@ ol{
 }
 
 .listSpace{
-    /* padding: 0; */
     padding-top: 0;
     padding-left: 0;
 }
@@ -236,7 +233,6 @@ ol{
     height: 480px;
     border-radius: 3px;
     margin: 0 30px;
-    /* box-shadow: -19px 25px 33px -7px rgba(0,0,0,0.52); */
 }
 
 hr {
@@ -280,7 +276,6 @@ a {
     display: flex;
     flex-direction: column;
     height: 140vh;
-    /* border: 1px solid black; */
     justify-content: center;
     align-items: center;
 }
