@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Quicksand&display=swap');
 
 :root{
     --white: rgb(255, 255, 255);
@@ -166,25 +165,35 @@ p {
     color: var(--white);
 }
 
+.projectsBody > h2 {
+    margin-bottom: 220px;
+}
+
+
 .nav-list-footer{
     color: var(--white);
 }
 
 .project-image {
-    margin-top: 25px;
     width: 250px;
     height: 200px;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     width: 300px;
     height: 420px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 10px;
     background-color: rgb(37, 37, 37);
 }
+
+
 
 .project-container {
     display: flex;
@@ -204,6 +213,10 @@ ol{
     text-align: center;
     height: 80%;
     margin-bottom: 0;
+}
+
+.contact > h1 {
+    margin: 20px;
 }
 
 .aboutMe{
@@ -241,10 +254,7 @@ ol{
     margin: 0 30px;
 }
 
-hr {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .project-link {
     text-decoration: none;
@@ -256,58 +266,49 @@ a {
     color: var(--white);
 }
 
-.hamburger {
-    display: none;
-}
 
-.hamburger:focus{
-    outline: 0;
-}
-
-/* Media queries start here */
-
-@media only screen and (max-width: 1000px) {
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: var(--white);
-        font-size: 30px;
-        margin: 20px;
-        align-self: flex-end;
-
+/* Media queries */
+@media (max-width: 768px) {
+    .hero {
+        font-size: 20px;
     }
 
-.project-container {
-    display: flex;
-    flex-direction: column;
-    height: 140vh;
-    justify-content: center;
-    align-items: center;
-}
-
-.project-card {
-    width: 700px;
-    height: 920px;
-    padding: 10px;
-    margin-top: 40px;
-}
-    .aboutMe{
-        flex-direction: column;
-        align-items: center;
-    }
-    a{
-        font-size: 29px;
+    .video {
+        height: 120px;
     }
 
-    nav {
-        display: flex;
-        justify-content: center; 
-    }
-    
-    .headshot{
-        height: 700px;
-        margin: 30px 0;
+    .nav {
+        margin-right: 5px;
     }
 
+    ul {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .first-last-name {
+        font-size: 36px;
+    }
+
+    .btn {
+        margin-top: 5px;
+        height: 25px;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    .subtext {
+        font-size: 10px;
+    }
 }
