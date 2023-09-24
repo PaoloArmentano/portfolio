@@ -165,9 +165,6 @@ p {
     color: var(--white);
 }
 
-.projectsBody > h2 {
-    margin-bottom: 220px;
-}
 
 
 .nav-list-footer{
@@ -199,6 +196,7 @@ p {
     display: flex;
     justify-content: space-around;
     height: 100vh;
+    margin: 30px;
 }
 
 ol{
