@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Quicksand&display=swap');
 
-body {
-    font-family: 'Quicksand', sans-serif;
+:root{
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --yellow: #fee000;
+    --pink: #fd82ff;
+}
+
+*{
     margin: 0;
 }
 
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 section {
-    background-color: white;
+    background-color: var(--white);
 }
 
 .hero {
-    background-color: black;
+    background-color: var(--black);
     height: 100vh;
-    color: white;
+    color: var(--white);
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 0;
@@ -48,8 +59,8 @@ video{
 }
 
 .footer {
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     height: 100vh;
     text-align: center;
 }
@@ -100,9 +111,9 @@ p {
 
 .btn {
     margin-top: 20px;
-    color: black;
+    color: var(--black);
     border: none;
-    background-color: #fee000;
+    background-color: var(--yellow);
     outline: none;
     font-family: 'Quicksand', sans-serif;
     height: 40px;
@@ -114,13 +125,12 @@ p {
 }
 
 .btn:hover {
-    background-color: #fd82ff;
+    background-color: var(--pink);
+    color: var(--white);
 }
 
 .btn:active {
-    background-color: #A9A9A9;
-    color: #808080;
-    transform: scale(0.9);
+    transform: scale(0.8);
 }
 
 .subtext{
@@ -130,7 +140,6 @@ p {
 .sub-section {
     display: flex;
     justify-content: space-around;
-    /* padding: 80px; */
     height: 100vh;
 }
 
@@ -141,25 +150,24 @@ p {
 }
 
 #nav-list-aboutme{
-    color: white;
-    /* border: 1px solid black; */
+    color: var(--white);
 }
 
 .nav-list-projects{
-    color: white;
+    color: var(--white);
 }
 
 
 .projects{
-    background-color: black;
+    background-color: var(--black);
 }
 
 .projectsBody{
-    color: white;
+    color: var(--white);
 }
 
 .nav-list-footer{
-    color: white;
+    color: var(--white);
 }
 
 .project-image {
@@ -201,7 +209,6 @@ ol{
 .aboutMe{
     display: flex;
     margin: 40px 30px 0 30px;
-    /* border: 1px solid black; */
     justify-content: center;
     height: 80vh;
 
@@ -211,16 +218,16 @@ ol{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--white);
 }
 
 .aboutMeSection{
     font-size: 20px;
-    color: white;
+    color: var(--white);
 }
 
 .aboutBody{
-    background-color: black;
+    background-color: var(--black);
 }
 
 .listSpace{
@@ -241,12 +248,12 @@ hr {
 
 .project-link {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 .hamburger {
@@ -264,7 +271,7 @@ a {
         display: block;
         border: 0;
         background-color: transparent;
-        color: white;
+        color: var(--white);
         font-size: 30px;
         margin: 20px;
         align-self: flex-end;
