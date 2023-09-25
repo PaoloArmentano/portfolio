@@ -77,7 +77,7 @@ a{
 .nav-link:hover {
     background-color: var(--yellow);
     color: var(--black);
-    border-radius: 25px;
+    border-radius: 20px;
     transition: 0.7s;
     padding: 10px;
 }
