@@ -74,6 +74,14 @@ a{
     font-size: 20px;
 }
 
+.nav-link:hover {
+    background-color: var(--yellow);
+    color: var(--black);
+    border-radius: 25px;
+    transition: 0.7s;
+    padding: 10px;
+}
+
 ul {
     display: flex;
     list-style-type: none;
